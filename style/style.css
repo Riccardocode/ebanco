@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background-color: #000122;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 45px;
+}
+header img{
+  height: 18px;
+  
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ****************main*********** */
+main{
+  background-color:#f1f2fa;
+  padding: 45px;
+  margin-bottom: 30px;
+}
+
+main h2{
+  color: #000122;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+main ul{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+main ul button{
+  background-color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #00012280;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+button span{
+  opacity: 50%;
+}
+button.selected {
+  color: #000add;
+}
+article{
+  background-color: #a5b0da;
+  width: 290px;
+  height: 180px;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 30px;
+  /* background */
+  background-image: url('../images/goals/maserati.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+article h3 {
+  color: white;
+  font-size: 22px;
+  margin: 5px;
+  text-transform: capitalize;
+}
+article h4 {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article h4 .current {
+  color: #000aff;
+  font-size: 12px;
+
+}
+article h4 .goal{
+  color: #00012254;
+  font-size: 14px;
+} 
+
+footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 100px 30px #fff;
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer a {
+  padding: 28px;
+  display: block;
+}
