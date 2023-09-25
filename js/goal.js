@@ -67,4 +67,5 @@ const newCount = document.querySelector('#newCount');
 const reachedCount = document.querySelector('#reachedCount');
 
 
+
 displayGoals('all');
