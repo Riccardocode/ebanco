@@ -1,0 +1,119 @@
+#exchangeInput {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.exchangeInput-title {
+  color: #000122;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+}
+
+.exchangeInput-amount {
+  color: #000aff;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 107.143% */
+}
+
+/* progress bar */
+#containerProgressBar{
+  width: 100%;
+  height: 4px;
+  background-color: #c2d6fa;
+  
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  
+}
+#smallCircleProgressBar{
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #000AFF;
+}
+#progressBar{
+  width: 50%;
+  height: 4px;
+  background-color: #000AFF;
+  border-radius: 5px;
+}
+#bigCircleProgressBar{
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #000AFF;
+}
+
+.exchangeInput-amountButtons > button {
+  width: 54px;
+  height: 32px;
+  border-radius: 10px;
+  border: 0;
+  background-color: white;
+  /* text */
+  color: #000122;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.exchageInput-line {
+  margin-top: 51px;
+  margin-bottom: 51px;
+  opacity: 0.1;
+  background: #000122;
+}
+
+#exchangeOutput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  height: 260px;
+}
+.exchangeOutput-amount {
+  color: #000aff;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 62.5% */
+}
+
+.exchangeOutputBtn > button {
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: #000122;
+  
+  /* text */
+  color: #000122;
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 112.5% */
+border-radius: 20px;
+border: 0;
+}
+.exchangeOutputBtn > button:hover, .exchangeInput-amountButtons > button:hover{
+    color: white;
+    background-color: #000AFF;
+    cursor: pointer;
+}

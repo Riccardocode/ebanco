@@ -1,0 +1,145 @@
+button:hover {
+  cursor: pointer;
+}
+
+#transactionBalance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+.transactionBalance-circleContainer {
+  width: 180px;
+  height: 180px;
+  border: 10px solid white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.transactionBalance-circleContainer > small {
+  color: #000122;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+  opacity: 0.5;
+}
+.transactionBalance-circleContainer > h2 {
+  margin-bottom: 0;
+  color: #000aff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 107.143% */
+}
+
+#transactionExpensesIncome {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#transactionExpensesIncome:hover{
+  cursor: pointer;
+}
+
+.transactionExpensesIncome-menu {
+  display: flex;
+  gap: 20px;
+}
+.transactionExpensesIncome-menu > span {
+  color: #000122;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 109.091% */
+  opacity: 0.5;
+}
+.transactionExpensesIncome-menu > span.spanMenu-active, .transactionExpensesIncome-buttons>button.buttonActive {
+  color: #000aff;
+  opacity: 1;
+}
+
+/* buttons */
+.transactionExpensesIncome-buttons {
+  display: flex;
+  gap: 10px;
+}
+.transactionExpensesIncome-buttons > button {
+  border-radius: 12px;
+  width: 113px;
+  height: 32px;
+  background-color: white;
+  border: 0;
+ 
+  /* text; */
+  color: #000122;
+font-family: "Roboto",sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px; /* 116.667% */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+opacity: 0.5;
+}
+
+
+/* template card */
+.transactionExpensesIncome-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.transactionExpensesIncome-cards-template {
+  width: 140px;
+  height: 160px;
+  flex-shrink: 0;
+  /* background-color: #90e4a2; */
+  border-radius: 15px;
+  filter: drop-shadow(0px 15px 30px rgba(144, 228, 162, 0.35));
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.colorFood{
+    background-color: #90e4a2;
+}
+.colorShopping{
+    background-color: #dc47f3;
+}
+.colorOther{
+    background-color: #1db9e9;
+}
+.transactionExpensesIncome-cards-template > img {
+  width: 30px;
+  height: 24px;
+}
+.transactionExpensesIncome-cards-template > div > p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+}
+.transactionExpensesIncome-cards-template > div > h4 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 109.091% */
+}

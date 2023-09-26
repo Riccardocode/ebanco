@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/card.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     <title>Goal & Wishes </title>
@@ -20,6 +21,42 @@
     </header>
     <main>
         <h2>Cards</h2>
+
+        <section id="section-card">
+            <div class="section-card-visa">
+                <div class="section-card-visaImg">
+                    <img src="./images/icons/visa.png" alt="">
+                </div>
+                <div class="section-card-balance">
+                    <small>Balance</small>
+                    <h2>$1,478,20</h2>
+                </div>
+                <div class="section-card-visaNumber">
+                    <small>
+                        <span>••••</span>
+                        <span>••••</span>
+                        <span>••••</span>
+                        <span>1234</span>
+                    </small>
+                    <small>03/24</small>
+                </div>
+            </div>
+
+        </section>
+        <section id="section-card-transections">
+            <div class="section-card-transections-header">
+                <h3>Transactions</h3>
+                <button>view all</button>
+            </div>
+            <div class="section-card-transaction-template">
+                <img src="./images/icons/transaction1.png" alt="">
+                <div class="section-card-transaction-template-description">
+                    <h5>Steam</h5>
+                    <small>Other, just now</small>
+                </div>
+                <div class="section-card-transaction-template-amount">$31.20</div>
+            </div>
+        </section>
     </main>
     <footer>
         <ul>
@@ -29,8 +66,11 @@
             <li><a href="other.html"><img src="./images/icons/menu-other.png" alt=""></a></li>
         </ul>
     </footer>
-    <script src="./data/goals.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./data/cards.js"></script>
     <script src="./data/messages.js"></script>
-    <script src="./js/goal.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script src="./js/cards-jquery.js"></script>
 </body>
 </html>

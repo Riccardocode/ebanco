@@ -1,0 +1,137 @@
+#section-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.section-card-visa {
+  width: 290px;
+  height: 180px;
+  background: linear-gradient(249deg, #6568ac 0%, #1c1d34 100%);
+  filter: drop-shadow(0px 25px 40px rgba(28, 29, 52, 0.35));
+  border-radius: 15px;
+  padding: 13px;
+  gap: 20px;
+}
+.section-card-visaImg {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 22px;
+}
+
+.section-card-balance {
+  padding-left: 22px;
+}
+.section-card-balance > small {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 116.667% */
+  opacity: 0.5;
+}
+.section-card-balance > h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 107.143% */
+}
+
+.section-card-visaNumber {
+  margin-right: 22px;
+  margin-left: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-card-visaNumber > small {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 1.2px;
+  opacity: 0.5;
+}
+
+/* card transaction section */
+#section-card-transections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-card-transections-header {
+  display: flex;
+  justify-content: space-between;
+}
+.section-card-transections-header > h3 {
+  color: #000122;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 109.091% */
+}
+.section-card-transections-header > button {
+  width: 92px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: white;
+  border: 0;
+  /* inside text */
+  color: #000122;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.section-card-transaction-template {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+.section-card-transaction-template > img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.section-card-transaction-template {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.section-card-transaction-template-description {
+  width: 80%;
+}
+.section-card-transaction-template-description > small {
+  color: #000122;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 116.667% */
+  opacity: 0.5;
+}
+
+.section-card-transaction-template-amount {
+  color: #000aff;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+}

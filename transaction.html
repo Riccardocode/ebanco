@@ -1,36 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-    <title>Goal & Wishes </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/transactions.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Transactions</title>
+  </head>
+  <body>
     <header>
-        <h1>
-            <img src="./images/icons/logo.png" alt="Banco Logo">
-        </h1>
-        <a href="messages.html">
-            <img src="./images/icons/message.png" alt="My Messages">
-            <span id="notifications">2 </span>
-        </a>
+      <h1>
+        <img src="./images/icons/logo.png" alt="Banco Logo" />
+      </h1>
+      <a href="messages.html">
+        <img src="./images/icons/message.png" alt="My Messages" />
+        <span id="notifications">2 </span>
+      </a>
     </header>
     <main>
-        <h2>Transactions</h2>
+      <h2>Transactions</h2>
+      <section id="transactionBalance">
+        <div class="transactionBalance-circleContainer">
+          <small>total Balance</small>
+          <h2>$1000</h2>
+        </div>
+      </section>
+      <section id="transactionExpensesIncome">
+        <div class="transactionExpensesIncome-menu">
+          <span class="spanMenu-active">Expenses</span> <!--This class will be added or removed-->
+          <span>Income</span>
+        </div>
+        <div class="transactionExpensesIncome-buttons">
+          <button class="buttonActive">this Month</button>
+          <button>November</button>
+          <button>October</button>
+        </div>
+        <div class="transactionExpensesIncome-cards">
+          <div class="transactionExpensesIncome-cards-template">
+            <img src="./images/icons/food.png" alt="" />
+            <div>
+              <p>Food</p>
+              <h4>$145</h4>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <ul>
-            <li><a href="goal.html"><img src="./images/icons/menu-home.png" alt=""></a></li>
-            <li><a href="transaction.html"><img src="./images/icons/menu-transaction-active.png" alt=""></a></li>
-            <li><a href="card.html"><img src="./images/icons/menu-card.png" alt=""></a></li>
-            <li><a href="other.html"><img src="./images/icons/menu-other.png" alt=""></a></li>
-        </ul>
+      <ul>
+        <li>
+          <a href="goal.html"
+            ><img src="./images/icons/menu-home.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="transaction.html"
+            ><img src="./images/icons/menu-transaction-active.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="card.html"
+            ><img src="./images/icons/menu-card.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="other.html"
+            ><img src="./images/icons/menu-other.png" alt=""
+          /></a>
+        </li>
+      </ul>
     </footer>
-    <script src="./data/goals.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="./data/messages.js"></script>
-    <script src="./js/goal.js"></script>
-</body>
+    <script src="./js/main.js"></script>
+    <script src="./data/transactions.js"></script>
+    <script src="./js/transactions-jquery.js"></script>
+  </body>
 </html>

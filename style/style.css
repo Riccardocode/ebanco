@@ -30,6 +30,9 @@ main{
   background-color:#f1f2fa;
   padding: 45px;
   margin-bottom: 30px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  min-height: 680px;
 }
 
 main h2{

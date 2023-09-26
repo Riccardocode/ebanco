@@ -48,4 +48,12 @@ const messagesArray = [
         date : 'Yesterday, at 13:45',
         picture : 'images/contacts/contact4.png'
     },
+    {
+        sender :'Thomas Johnson',
+        lastMessage :'Hello, man. Give me $120, please. Cat gives birth...' ,
+        date : '5 min ago',
+        notSeen :1,
+        picture : 'images/contacts/contact1.png'
+    },
+    
 ]
